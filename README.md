@@ -1,16 +1,56 @@
-# React + Vite
+# HobbyHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+HobbyHub is a React web application that allows users to create, view, edit, delete, and interact with posts based on their interests. Users can create posts, view a feed of posts, upvote posts, and participate in discussions through comments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application uses Supabase as the backend database and React Router for navigation between pages.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [x] Create new posts
+- [x] View posts feed
+- [x] View individual post pages
+- [x] Edit existing posts
+- [x] Delete posts
+- [x] Upvote posts
+- [x] Add comments to posts
+- [x] Display post creation time
+- [x] React Router navigation
+- [x] Supabase database integration
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- CSS
+- React Router
+- Supabase
+
+## Database
+
+Supabase stores all application data.
+
+### Posts table includes:
+
+- id
+- title
+- content
+- image_url
+- upvotes
+- created_at
+
+### Comments table includes:
+
+- id
+- post_id
+- text
+- created_at
+
+## Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ohene-gif/hobbyhub.git
