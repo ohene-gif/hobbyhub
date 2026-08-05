@@ -2,14 +2,21 @@
 
 ## Overview
 
-HobbyHub is a React web application that allows users to create, view, edit, delete, and interact with posts based on their interests. Users can create posts, view a feed of posts, upvote posts, and participate in discussions through comments.
+HobbyHub is a React web application where users can create and interact with posts based on their hobbies and interests.
 
-The application uses Supabase as the backend database and React Router for navigation between pages.
+Users can create posts, view a community feed, search and sort posts, open individual post pages, upvote posts, leave comments, edit posts, and delete posts.
+
+The application uses React for the frontend, Supabase as the backend database, and React Router for navigation between pages.
+
 
 ## Features
 
 - [x] Create new posts
+- [x] Add post title, content, and image URL
 - [x] View posts feed
+- [x] Search posts by title
+- [x] Sort posts by newest
+- [x] Sort posts by most upvoted
 - [x] View individual post pages
 - [x] Edit existing posts
 - [x] Delete posts
@@ -18,6 +25,7 @@ The application uses Supabase as the backend database and React Router for navig
 - [x] Display post creation time
 - [x] React Router navigation
 - [x] Supabase database integration
+- [x] Implement CRUD operations
 
 ## Technologies Used
 
